@@ -1,5 +1,4 @@
 import "./globals.css"
-import { SpeedInsights } from "@vercel/speed-insights/next"
 import { Inter } from "next/font/google"
 import type React from "react"
 import Footer from "./components/Footer"
