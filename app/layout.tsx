@@ -3,6 +3,8 @@ import { Inter } from "next/font/google"
 import type React from "react"
 import Footer from "./components/Footer"
 import { FlickeringGrid } from "./components/ui/flickering-grid"
+import { SpeedInsights } from '@vercel/speed-insights/next';
+
 
 const inter = Inter({ subsets: ["latin"] })
 
