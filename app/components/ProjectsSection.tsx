@@ -5,6 +5,26 @@ import { motion, AnimatePresence } from "framer-motion"
 import { BarChart2 } from "lucide-react"
 import Image from "next/image"
 
+interface Project {
+  id: number;
+  title: string;
+  description: string;
+  status: string;
+  type: string;
+  tags: string[];
+  image: string;
+  link?: string; // Optional since not all projects have links
+}
+
+interface ProjectCardProps {
+  project: Project;
+  index: number;
+}
+
+interface CardWrapperProps {
+  children: React.ReactNode;
+}
+
 const projects = [
   {
     id: 1,
@@ -200,9 +220,9 @@ const ProjectsSection = () => {
   )
 }
 
-const ProjectCard = ({ project, index }) => {
+const ProjectCard = ({ project, index }: ProjectCardProps) => {
   // Wrapper component that conditionally renders either a link or a div
-  const CardWrapper = ({ children }) => {
+  const CardWrapper = ({ children }: CardWrapperProps) => {
     if (project.link) {
       return (
         <a href={project.link} target="_blank" rel="noopener noreferrer" className="block h-full cursor-pointer">

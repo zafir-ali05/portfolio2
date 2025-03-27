@@ -1,7 +1,8 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { useCallback } from "react"
+import { useCallback, useState, useEffect } from "react"
+
 
 const HeroSection = () => {
   // Split the name into individual letters
@@ -12,7 +13,7 @@ const HeroSection = () => {
   const appearanceOrder = [0, 3, 7, 1, 5, 8, 2, 4, 6]
 
   // Create a map of index to delay
-  const delayMap = {}
+  const delayMap: Record<number, number> = {}
   appearanceOrder.forEach((originalIndex, orderPosition) => {
     delayMap[originalIndex] = orderPosition
   })
