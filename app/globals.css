@@ -1,0 +1,47 @@
+@import "./styles/fonts.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+  overflow-x: hidden;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-family: "Publico", serif;
+  color: rgb(var(--foreground-rgb));
+  overflow-x: hidden;
+  background-color: #060606;
+}
+
+#__next {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Ensure main content takes full height */
+main {
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
+
