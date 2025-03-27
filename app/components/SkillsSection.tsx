@@ -102,7 +102,7 @@ const SkillsSection = () => {
         >
           <h2
             className="text-4xl md:text-5xl font-bold text-zinc-900 mb-2"
-            style={{ fontFamily: "'Propolish Rufftu', serif" }}
+            style={{ fontFamily: "'Square Pixel 22', monospace" }}
           >
             Worked with
           </h2>

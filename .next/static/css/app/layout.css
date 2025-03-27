@@ -27,7 +27,24 @@
 
 @font-face {
   font-family: "Propolish Rufftu";
-  src: url("/fonts/PropolishRufftu.woff2") format("woff2"), url("/fonts/PropolishRufftu.woff") format("woff");
+  src: url("/fonts/PropolishRufftu.ttf") format("ttf"), url("/fonts/PropolishRufftu.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* @font-face {
+  font-family: "Square Pixel 22";
+  src: url("/fonts/SquarePixel22.ttf") format("ttf"), url("/fonts/SquarePixel22.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+} */
+
+@font-face {
+  font-family: "Square Pixel 22";
+  src: url("https://db.onlinewebfonts.com/t/cdc8c3de1e6bd5a9a67c6a001f0bdb0d.woff2") format("woff2"),
+    url("https://db.onlinewebfonts.com/t/cdc8c3de1e6bd5a9a67c6a001f0bdb0d.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;

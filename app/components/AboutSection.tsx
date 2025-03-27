@@ -16,7 +16,7 @@ const AboutSection = () => {
         >
           <h2
             className="text-4xl md:text-5xl font-bold text-zinc-900 mb-4"
-            style={{ fontFamily: "'Propolish Rufftu', serif" }}
+            style={{ fontFamily: "'Square Pixel 22', monospace" }}
           >
             About Me
           </h2>

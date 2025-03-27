@@ -124,6 +124,7 @@ const ProjectsSection = () => {
               transition={{ duration: 0.6 }}
               viewport={{ once: true }}
               className="text-4xl md:text-5xl font-bold text-zinc-900"
+              style={{ fontFamily: "'Square Pixel 22', monospace" }}
             >
               Projects
             </motion.h2>

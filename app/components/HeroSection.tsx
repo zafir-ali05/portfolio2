@@ -46,7 +46,7 @@ const HeroSection = () => {
               ease: "easeInOut",
             }}
             style={{
-              fontFamily: "'Propolish Rufftu', serif",
+              fontFamily: "'Square Pixel 22', monospace",
               textShadow: "2px 2px 4px rgba(0, 0, 0, 0.1)",
               display: "inline-block",
               whiteSpace: "pre", // Preserve spaces
