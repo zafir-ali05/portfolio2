@@ -77,7 +77,7 @@ const HeroSection = () => {
           Projects
         </motion.button>
         <motion.a
-          href="https://drive.google.com/file/d/1UZ2JdaiojD6cx_wsinJ4aNFc4OFQf8ii/view?usp=sharing"
+          href="https://drive.google.com/file/d/1SqPO2l8mQgxNsKfjVmb4xAvxde4hkcL9/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           className="text-zinc-400 hover:text-zinc-200 transition-colors text-sm uppercase tracking-wider"
